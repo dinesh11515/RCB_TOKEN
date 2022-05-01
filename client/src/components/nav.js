@@ -5,12 +5,10 @@ export default function Navrcb(){
     return(
         <div>
             <div className="nav">
-                
                 <img src={rcb_logo} className="rcb_logo"></img>
                 <h1>Royal Challengers</h1>
                 <div className="nav_opt">
-                    <p>Home</p>
-                   
+                    <a href="#nft_heading">NFTS</a>
                 </div>      
             </div>
         </div>
