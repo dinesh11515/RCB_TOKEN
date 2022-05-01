@@ -8,7 +8,7 @@ import rcb_nft from "./contracts/rcbNFT.json";
 import Main from "./components/main";
 import Navrcb from "./components/nav";
 import Footer from "./components/footer";
-import Web3Modal from "web3modal";
+
 
 export default function App(){
   const [currAccount,setCurrAccount] = React.useState("");
